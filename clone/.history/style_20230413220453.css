@@ -1,0 +1,43 @@
+body{
+    background-color: #f0f0f0;
+    font-size: 13px;
+
+}
+.card,card-panel{
+    padding: 15px,20px;
+    box-shadow:0 1px 4px 0 rgba(0,0,0,0.14);
+
+}
+.container-fluid{
+    padding: 1rem 2.5rem;
+    margin: auto;
+}
+.row{
+    margin: 0 -0.75rem;
+
+}
+.main{
+    position: absolute;
+    width: calc(100% -250px);
+    top:125px;
+    margin-left: 250px;
+}
+.subhearder{
+    color: rgba(0,0,0,0.54);
+    font-weight: 500;
+}
+
+/*nav*/
+nav{
+    box-shadow:0 1px 8px rgba(0,0,0,0.3);
+
+}
+nav ul li{
+    text-align:center;
+}
+nav ul.right{
+    padding-right: 12px;
+}
+nav ul.right li{
+    max-width:48px ;
+}
